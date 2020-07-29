@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+}
+#main-header img {
+ width: 100%;
+ height: 100%; 
+}
+#main-header .bg-block {
+    background-color:rgb(6, 45, 54) ;
+    color: #ffff;
+  
+   }
+   #main-header .p-6 {
+    padding: 4.5rem;
+    color: #FFFF;
+    background-color: rgba(0, 139, 42, 0.808);
+  
+   }
+#main-header .menu {
+    width: 25%;
+}   
+#main-header .menu:hover {
+    opacity: 0.5;
+   cursor: pointer;
+    
+}   
+
+@media(min-width:972px){
+    #main-header .menu {
+        width: 25%; 
+}
+}
+
+#home .bg-warning {
+    background: rgba(241, 12, 12, 0.555) !important;
+   
+   
+}
+
+#contact .row {
+    background: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.308));
+}
